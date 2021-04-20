@@ -1,0 +1,21 @@
+.even {
+  background-color: black;
+  color: white;
+}
+
+.canvas {
+  position: relative;
+  background-color: whitesmoke;
+  width: 300px;
+  height: 300px;
+}
+
+.point {
+  position: absolute;
+  pointer-events: none;
+  background-color: red;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, -50%);
+}
